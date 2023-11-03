@@ -32,6 +32,7 @@ img {
     color: white;
     height: 30px;
     align-items: center;
+    padding-top: 10px;
 }
 
 .header .logo {
@@ -97,10 +98,24 @@ img {
 
 /* styling for information in card section*/
 
+.lower-information {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-title {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 32px;
+}
+
 .infocard-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 .infocard {
@@ -109,8 +124,15 @@ img {
     align-items: center;
 }
 
+.infocard .text {
+    text-align: center;
+    text-wrap: wrap;
+    width: 150px;
+}
+
 .info-title {
     text-align: center;
+    padding-top: 20px;
 }
 
 .card {
