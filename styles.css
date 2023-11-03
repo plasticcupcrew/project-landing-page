@@ -11,6 +11,11 @@ body {
     margin: 0px;
 }
 
+img {
+    max-height: 300px;
+    margin-right: 200px;
+}
+
 /* styling for logo and links in header*/
 
 .header {
@@ -38,6 +43,39 @@ body {
     margin-right: 200px;
     font-family: "Roboto";
     font-weight: 300;
+}
+
+/* styling for information in lower header*/
+
+.upper-information {
+    background-color: #1f2937;
+    display: flex;
+    width: 300px;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.upper-information .text, .upper-information .title {
+    width: 350px;
+    color: white;
+}
+
+.upper-information .title {
+    font-size: 48px;
+    font-family: "roboto";
+    font-weight: 700;
+    text-wrap: wrap;
+}
+
+.left-upper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding: 20px;
 }
 
 ul {
