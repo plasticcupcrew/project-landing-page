@@ -30,8 +30,7 @@ body {
 }
 
 img {
-    max-height: 300px;
-    margin-right: 200px;
+    max-height: 275px;
 }
 
 /* styling for logo and links in header*/
@@ -86,6 +85,15 @@ img {
 .left-upper {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.left-upper button {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: rgb(79, 79, 203);
+    border-radius: 5px;
 }
 
 ul {
