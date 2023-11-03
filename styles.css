@@ -5,28 +5,9 @@ html, body {
 
 body {
     display: flex;
-    justify-content: space-between;
-    margin: 0px;
-}
-
-.left-page {
-    background-color: #1f2937;
-    width: 200px;
-    margin: 0px;
-}
-
-.right-page {
-    background-color: #1f2937;
-    width: 200px;
-}
-
-.middle-page {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100%;
     margin: 0px;
-    flex: 1;
 }
 
 ul {
@@ -56,6 +37,7 @@ img {
 .header .logo {
     font-family: "Roboto";
     font-weight: 500;
+    margin-left: 200px;
 }
 
 .header .links {
@@ -64,6 +46,7 @@ img {
     gap: 30px;
     font-family: "Roboto";
     font-weight: 300;
+    margin-right: 200px;
 }
 
 /* styling for information in lower header*/
@@ -95,6 +78,13 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 200px;
+}
+
+.right-upper {
+    display: flex;
+    gap: 10px;
+    margin-right: 200px;
 }
 
 .left-upper button {
