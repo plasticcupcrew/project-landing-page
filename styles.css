@@ -75,6 +75,8 @@ li {
     align-items: center;
     width: 100%;
     flex: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .upper-information .text, .upper-information .title {
@@ -123,6 +125,8 @@ li {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .lower-information {
@@ -171,4 +175,32 @@ li {
     height: 200px;
     width: 200px;
     border-radius: 20px;
+}
+
+/* styling for quote section*/
+
+.quote-container {
+    flex: 1;
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.quote {
+    font-family: "roboto";
+    font-weight: 300;
+    font-size: 22px;
+    width: 550px;
+}
+
+.quote-author {
+    text-align: right;
+    width: 550px;
+    font-family: "roboto";
+    font-weight: bold;
 }
