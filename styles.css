@@ -212,8 +212,8 @@ li {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     min-width: 1400px;
 }
 
@@ -273,3 +273,4 @@ li {
     font-family: "roboto";
     font-weight: 300;
 }
+
