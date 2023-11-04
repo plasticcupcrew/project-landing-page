@@ -189,6 +189,7 @@ li {
     padding-bottom: 75px;
     gap: 10px;
     flex-shrink: 0;
+    min-width: 1400px;
 }
 
 .quote {
@@ -213,6 +214,7 @@ li {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    min-width: 1400px;
 }
 
 .cta-box {
@@ -253,4 +255,21 @@ li {
     font-family: "roboto";
     margin-right: 150px;
     width: 120px;
+}
+
+/*styling for the footer*/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1400px;
+}
+
+.footer .text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "roboto";
+    font-weight: 300;
 }
