@@ -39,6 +39,7 @@ li {
     height: 30px;
     align-items: center;
     padding-top: 10px;
+    min-width: 1400px;
 }
 
 .left-margin, .right-margin {
@@ -70,7 +71,7 @@ li {
     background-color: #1f2937;
     display: flex;
     width: 300px;
-    min-width: 400px;
+    min-width: 1400px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
